@@ -161,6 +161,12 @@ xcopy /y "$(ProjectDir)3rd_party\ffmpeg4\x64\bin\*.dll" "$(OutDir)"
 xcopy /y "$(ProjectDir)3rd_party\x264\x64\bin\*.dll" "$(OutDir)"
 ```
 
+## 如何查看lib是32位还是64位？
+
+在`x86 Native Tools Command Prompt for VS 2022`或`x64 Native Tools Command Prompt for VS 2022`中执行`dumpbin /headers xxx.lib | more`。
+
+如果是32位，就可以看到`machine (x86)`；如果是64位，就可以看到`machine (x64)`。
+
 ## 参考资料
 
 1. [https://www.roxlu.com/2019/062/compiling-ffmpeg-with-x264-on-windows-10-using-msvc](https://www.roxlu.com/2019/062/compiling-ffmpeg-with-x264-on-windows-10-using-msvc)
