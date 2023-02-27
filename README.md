@@ -163,5 +163,5 @@ xcopy /y "$(ProjectDir)3rd_party\x264\x64\bin\*.dll" "$(OutDir)"
 
 ## 参考资料
 
-[https://www.roxlu.com/2019/062/compiling-ffmpeg-with-x264-on-windows-10-using-msvc](https://www.roxlu.com/2019/062/compiling-ffmpeg-with-x264-on-windows-10-using-msvc)
-[how-to-make-visual-studio-copy-a-dll-file-to-the-output-directory](https://stackoverflow.com/questions/1776060/how-to-make-visual-studio-copy-a-dll-file-to-the-output-directory)
+1. [https://www.roxlu.com/2019/062/compiling-ffmpeg-with-x264-on-windows-10-using-msvc](https://www.roxlu.com/2019/062/compiling-ffmpeg-with-x264-on-windows-10-using-msvc)
+2. [how-to-make-visual-studio-copy-a-dll-file-to-the-output-directory](https://stackoverflow.com/questions/1776060/how-to-make-visual-studio-copy-a-dll-file-to-the-output-directory)
